@@ -1,0 +1,5 @@
+# Go workspace file
+go.work
+
+# Binary
+mcl
