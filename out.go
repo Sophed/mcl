@@ -16,6 +16,9 @@ func printInfo(profile *Profile) {
 	m := map[string]string{
 		"Username": profile.Name,
 		"UUID":     uuid,
+		"NameMC":   "https://namemc.com/profile/" + profile.Name,
+		"Laby":     "https://laby.net/@" + profile.Name,
+		"Skin":     "https://minotar.net/skin/" + profile.Name,
 	}
 	prettyPrint(m)
 
